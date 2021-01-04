@@ -1,0 +1,135 @@
+* {
+    box-sizing: border-box ;
+}
+
+header {
+    background-color: #EAC926 ;
+}
+
+body {
+    font-family: 'Roboto', sans-serif ;
+    background-color: #ebebeb ;
+}
+
+.logo {
+    width: 40% ;
+    height: auto ;
+    margin-top: 32px ;
+    margin-left: 32px ;
+    margin-bottom: 12px ;
+}
+
+.search {
+    margin-left: 20px ;
+}
+
+
+.sub-compra {
+    text-align: center ;
+}
+
+ul {
+    list-style-type: none ;
+}
+
+p {
+    font-size: 12px ;
+}
+
+h3 {
+    font-size: 24px ;
+}
+
+.price {
+    font-size: 18px ;
+}
+
+.discount,
+.description {
+    font-size: 16px ;
+}
+
+.burger-menu-background {
+    background-color:  #0044AA ;
+    height: 44px ;
+    border-radius: 5px;
+    width: 45px ;
+    margin: auto ;
+}
+
+.burger-icon {
+    color: white ;
+    text-align: center ;
+    font-size: 24px ;
+    padding: 10px;
+}
+
+section.banner img {
+    width: 100% ;
+}
+
+main section article img {
+    width: 100% ;
+}
+
+footer {
+    text-align: center ;
+}
+
+.credit-card,
+.gift,
+.user-shield {
+    color: #1259c3 ;
+    font-size: 2em ;
+    margin-bottom: 10px ;
+}
+
+main {
+    margin: auto ;
+    width: 90% ;
+}
+
+main article {
+    margin-top: 10px ;
+    margin-bottom: 10px ;
+}
+
+.articles {
+    background-color: white ;
+    border-top: 1px solid #ebebeb ;
+    padding: 15px ;
+}
+
+main section article i,
+.discount {
+    color: #39b54a ;
+}
+
+.description {
+    display: none ;
+    margin-top: 20px ;
+}
+
+nav {
+    display: none ;
+}
+
+@media (min-width: 361px) {
+    main section article .description {
+        display: block ;
+    }
+
+    main section article{
+        box-shadow: 0px 0px 10px rgb(100, 100, 100);
+    }
+}
+
+@media (min-width: 769px){
+    nav {
+        display: block ;
+    }
+    
+    .burger-menu-background {
+        display: none ;
+    }
+}
